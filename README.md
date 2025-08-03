@@ -1,38 +1,43 @@
-# CI/CD Tools and Practices Final Project Template
+# ⚙️ CI/CD Tools and Practices Final Project Template
 
-This repository contains the template to be used for the Final Project for the Coursera course **CI/CD Tools and Practices**.
+This repository serves as a template for the **Final Project** in the [Coursera course: CI/CD Tools and Practices](https://www.coursera.org/). It provides a basic structure to implement and demonstrate continuous integration and continuous deployment workflows using industry-standard tools.
 
-## Usage
+## 🚀 Usage Instructions
 
-This repository is to be used as a template to create your own repository in your own GitHub account. No need to Fork it as it has been set up as a Template. This will avoid confusion when making Pull Requests in the future.
+This repository is set up as a **GitHub Template**. To begin your project:
 
-From the GitHub **Code** page, press the green **Use this template** button to create your own repository from this template.
+1. Click the green **"Use this template"** button at the top of the repository page.
+2. Name your new repository: `ci-cd-final-project`
+3. Clone your new repository locally and begin building your pipelines.
 
-Name your repo: `ci-cd-final-project`.
+> ⚠️ Avoid **forking** this repository. Using the template ensures that your project remains independent and avoids confusion during pull requests or submissions.
 
-## Setup
+## 📦 What's Included
 
-After entering the lab environment you will need to run the `setup.sh` script in the `./bin` folder to install the prerequisite software.
+- Placeholder directories and files for:
+  - Source code
+  - CI/CD pipeline definitions
+  - Deployment scripts
+  - Test automation
+- Sample GitHub Actions/Jenkins file (optional, depending on setup)
+- `README.md` scaffold to describe your project setup
 
-```bash
-bash bin/setup.sh
-```
+## 🧰 Suggested Tools
 
-Then you must exit the shell and start a new one for the Python virtual environment to be activated.
+Depending on your project scope, you may incorporate:
 
-```bash
-exit
-```
+- CI/CD Orchestrators: GitHub Actions, Jenkins, GitLab CI/CD, CircleCI
+- Containerization: Docker
+- Deployment: Kubernetes, Heroku, AWS, or other cloud platforms
+- Testing: Unit, Integration, and End-to-End automation frameworks
 
-## Tasks
+## 🎯 Learning Objectives
 
+- Design and implement an automated CI/CD pipeline
+- Integrate build, test, and deploy stages
+- Use version control best practices for pipeline collaboration
+- Deploy applications in a repeatable and reliable manner
 
-## License
+---
 
-Licensed under the Apache License. See [LICENSE](/LICENSE)
-
-## Author
-
-Skills Network
-
-## <h3 align="center"> © IBM Corporation 2023. All rights reserved. <h3/>
+Feel free to extend this template to meet your specific project requirements and CI/CD tooling preferences. Good luck with your final project!
